@@ -1,0 +1,40 @@
+
+    <%- include('partials/head.ejs') %>
+    <%- include('partials/navegation.ejs') %>
+    <section class="hero align-items-stretch">
+        <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+            <img class="hero-img-dev" src="/img/hexagon.svg" alt="logo">
+            <h1 class="seccion-titulo">HEXAGON DEV</h1>
+        </div>
+    </section>
+
+    <section class="carrusel">
+        <h2 class="seccion-titulo">Lorem ipsum dolor sit.</h2>
+        <h3 class="seccion-descripcion">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Praesentium, repellendus.
+        </h3>
+
+        <div id="carouselExample" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/img/carrusel.svg" class="d-block w-100 h-100" alt="carousel">
+              </div>
+              <div class="carousel-item">
+                <img src="/img/carrusel.svg" class="d-block w-100 h-100" alt="carousel">
+              </div>
+              <div class="carousel-item">
+                <img src="/img/carrusel.svg" class="d-block w-100 h-100" alt="carousel">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+    <%- include('partials/footer.ejs') %>
